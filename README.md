@@ -30,10 +30,10 @@ the features of this UI are listed as below-
 
   ![image](https://github.com/user-attachments/assets/2de60919-d098-43ac-bf27-581f35df77a1)
   
-      validation 1 -SIN Number
+  validation 1 -SIN Number
       ![image](https://github.com/user-attachments/assets/e3ecaf67-f9e0-4274-8daf-7fd04b7dd1c7)
 
-      validation 2 - Phone Number
+  validation 2 - Phone Number
       ![image](https://github.com/user-attachments/assets/ff4c6446-bf40-4686-a3f0-f18dfc104d88)
 
 
