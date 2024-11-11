@@ -1,0 +1,43 @@
+{{page-title "Advisors"}}
+<h4>List of Advisors </h4>
+
+<div class="container">
+    <table border="1" style="font-size: 14px;width:90%" >
+        <thead>
+            <tr style="background-color: rgb(80, 77, 77);color: white;" align="left">
+                
+                <th>Name</th>
+                <th>SIN</th>
+                <th>Phone Number</th>
+                <th>Address</th>
+                <th>Health Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            {{#each this.model as |advisor|}}
+                <tr> 
+               
+                <td>{{advisor.fullName}}</td>
+                <td>{{advisor.sin}}</td>
+                <td>{{advisor.phoneNumber}}</td>
+                <td>{{advisor.address}}</td>
+                <td>{{advisor.healthStatus}}</td>
+                <td align="center">
+                    <button type="button" style="background-color:rgb(9, 40, 63);"> <a href="editadvisor/{{advisor.id}}" style="text-decoration: none;color:white;">Edit</a></button>
+                    <button type="button" {{action "deleteRecord" advisor.id}} style="background-color:rgb(9, 40, 63);color:white">Delete</button>
+                   
+                </td>
+                </tr>
+            {{/each}}
+        </tbody>
+        
+    </table>
+</div>
+<div class="container">
+    {{outlet}}
+</div>
+
+   
+

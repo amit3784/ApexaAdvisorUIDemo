@@ -1,0 +1,73 @@
+
+{{page-title "UpdateAdvisor"}}
+<div>
+    <h4>Update advisor information</h4>
+</div>
+<form class="container">
+
+    <table border="0">
+        <tr>
+            <td>
+                <label for="Id">Id:</label>
+            </td>
+            <td>
+                <span>***</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="fullname">Full Name:</label>
+                
+            </td>
+            <td>
+               {{input type="text" id="fullname" name="fullname" value=this.model.fullName }} 
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label for="SIN">SIN:</label>
+                
+            </td>
+            <td>
+                {{input type="number" id="sin" name="sin" value=this.model.sin  }}
+            </td>
+            <td><span style="color: red;">* Must be exactly 9 digit, existing value masked and could not be shown!</span></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phoneNumber">Phone Number:</label>
+                
+            </td>
+            <td>
+                {{input type="number" id="phonenumber" name="phonenumber"  value=this.model.phoneNumber}}
+            </td>
+            <td><span style="color: red;">* Must be exactly 10 digit, existing value masked and could not be shown!</span></td>
+
+        </tr>
+        <tr>
+            <td>
+                <label for="address">Address:</label>
+                
+            </td>
+            <td>
+                {{input type="text" id="address" name="address" value=this.model.address}}
+            </td>
+
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                
+                <button {{action "submitForm" this.model}} style="background-color:rgb(144, 188, 172);">Submit</button>
+            </td>
+        </tr>
+    </table>
+  
+  
+  
+</form>
+
+

@@ -1,0 +1,64 @@
+
+<div style="width: 100%">
+   
+<div>
+    <h4>Create new advisor</h4>
+</div>
+<form {{on "submit" this.submitForm}}>
+
+    <table>
+        <tr>
+            <td>
+                <label for="fullname">Full Name:</label>
+                
+            </td>
+            <td>
+                <input type="text" id="fullname" value={{this.fullName}} name="fullname" required>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label for="SIN">SIN:</label>
+                
+            </td>
+            <td>
+                <input type="number" id="sin" value={{this.sin}} name="sin" required>
+            </td>
+            <td><span style="color: red;">* Must be exactly 9 digit!</span></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phoneNumber">Phone Number:</label>
+                
+            </td>
+            <td>
+                <input type="number" id="phonenumber" value={{this.phonenumber}} name="phonenumber">
+            </td>
+            <td><span style="color: red;">* Must be exactly 10 digit!</span></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="address">Address:</label>
+                
+            </td>
+            <td>
+                <input type="text" id="address" value={{this.address}} name="address" >
+            </td>
+
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                
+                <button type="submit" style="background-color:rgb(144, 188, 172);">Submit</button>
+            </td>
+        </tr>
+    </table>
+  
+  
+  
+</form>
+</div>
