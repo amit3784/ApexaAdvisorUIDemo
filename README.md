@@ -1,7 +1,57 @@
 # apexa-advisor-ui
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Welcome to Apexa Advisor UI.
+the features of this UI are listed as below-
+
+## Advisor List View
+ This UI page lists all the advisors in the database and provide the ability to edit or delete the advisor from the same screen.
+
+ ## Advisor Edit View
+ This UI page provides the ability to edit an existing advisor information.
+
+      Note:the SIN number and phone numbers values are hidden intensionally and the user need to update the information itself.
+
+ ## Create New Advisor View
+  This UI page is used to create a new advisor.
+
+      Note: 
+        1. SIN Number field is mandatory and must be exactly 9 digits.
+        2. Phone number fields if provided must be exactly 10 digits.
+
+  ## Additional Information:
+    The application is hosted on-
+        
+        [application URL](http://localhost:4200/Advisors)
+    
+  ## Images UI
+
+  ### Create Advisor UI
+  ![image](https://github.com/user-attachments/assets/ec29826f-c7ee-48a5-a5e5-771755356565)
+
+  ![image](https://github.com/user-attachments/assets/2de60919-d098-43ac-bf27-581f35df77a1)
+
+
+  ### List Advisor UI
+  ![image](https://github.com/user-attachments/assets/724b70c5-370f-4bf1-8b44-5326a888f338)
+
+  ### Edit Advisor UI
+  ![image](https://github.com/user-attachments/assets/17596fd3-4047-44c0-826c-c9de58cc767f)
+
+  ![image](https://github.com/user-attachments/assets/ce7c3d19-44a1-4a8a-ad6c-835b1e09b49d)
+
+  ### Delete Advisor UI
+  ![image](https://github.com/user-attachments/assets/2e5177b5-6741-434a-95b3-b36f2f86f13b)
+  
+  ![image](https://github.com/user-attachments/assets/fc75cb01-c2e3-4987-8523-cb8aec6a96be)
+
+
+  
+
+
+
+
+
+
 
 ## Prerequisites
 
